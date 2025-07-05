@@ -187,9 +187,13 @@ The model was trained for 10 epochs on the Flickr8k dataset, achieving a final t
 
 ---
 
-# 👤 Author
+## 👤 Author
 
-[Kashyap Hegde Kota]
+**[Kashyap Hegde Kota]**
+
+A passionate Computer Science student with a keen interest in Deep Learning, Natural Language Processing, and building impactful AI-driven applications.
+
 Connect with me:
-<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-<img src = "https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
+
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kashyap-hegde-kota/)
+[<img src = "https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">](https://github.com/KashyapHegdeKota)
