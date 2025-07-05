@@ -76,7 +76,7 @@ The Decoder's job is to take the image's feature vector and generate a text sequ
 
 ## 📂 Project Structure
 
-ai_image_captioning/
+CaptionMe/
 ├── .streamlit/
 │ └── config.toml
 ├── assets/
@@ -133,8 +133,9 @@ nltk.download('punkt')
 ```
 
 **5. Download the dataset:**
-The training script is configured for the Flickr8k dataset.
-Download from Kaggle and place the contents in the data/flickr8k/ directory.
+
+- The training script is configured for the Flickr8k dataset.
+  - Download from Kaggle and place the contents in the data/flickr8k/ directory.
 
 ---
 
@@ -168,6 +169,27 @@ python train.py --epochs 10 --batch_size 64
 
 The model was trained for 10 epochs on the Flickr8k dataset, achieving a final training perplexity of approximately 7.4. The model checkpoint from epoch 10 was selected for deployment to balance performance and prevent overfitting.
 
-|                                               Original Image                                                | Generated Caption by Echo                  |
-| :---------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
-| <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400" alt="A dog playing in the snow"> | "A brown dog is running through the snow." |
+|                                                   Original Image                                                   | Generated Caption by Echo                       |
+| :----------------------------------------------------------------------------------------------------------------: | :---------------------------------------------- |
+|    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400" alt="A dog playing in the snow">     | "A brown dog is running through the snow."      |
+|  <img src="https://images.unsplash.com/photo-1542296332-9a579a944322?w=400" alt="A man skateboarding in a city">   | "A man is riding a skateboard on a street."     |
+|       <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" alt="A plate with food">       | "A pizza with pepperoni and cheese on a plate." |
+| <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=400" alt="A cat sitting on a windowsill"> | "A black cat is sitting on a window sill."      |
+
+---
+
+## 🔮 Future Improvements
+
+- Attention Mechanism: Implement a visual attention mechanism to allow the decoder to focus on different parts of the image at each step, improving context and performance.
+- Upgrade to Transformers: Replace the LSTM Decoder with a more modern Transformer-based architecture for potentially more nuanced language generation.
+- Advanced Inference: Implement Beam Search instead of greedy search during inference to generate more optimal and coherent captions.
+- Train on a Larger Dataset: Scale the project by training the final model on a larger dataset like MS COCO to improve generalization.
+
+---
+
+# 👤 Author
+
+[Kashyap Hegde Kota]
+Connect with me:
+<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src = "https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
