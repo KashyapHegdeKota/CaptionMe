@@ -168,6 +168,6 @@ python train.py --epochs 10 --batch_size 64
 
 The model was trained for 10 epochs on the Flickr8k dataset, achieving a final training perplexity of approximately 7.4. The model checkpoint from epoch 10 was selected for deployment to balance performance and prevent overfitting.
 
-|                                                                Original Image                                                                | Generated Caption by Echo                            |
-| :------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------- |
-| <img src="https://unsplash.com/photos/a-brown-dog-standing-on-top-of-snow-covered-ground-M0UMCtHpxkQ?w=400" alt="A dog playing in the snow"> | "A black and white dog is running through the snow." |
+|                                               Original Image                                                | Generated Caption by Echo                  |
+| :---------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
+| <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400" alt="A dog playing in the snow"> | "A brown dog is running through the snow." |
