@@ -44,9 +44,7 @@ A complete, end-to-end deep learning project that generates descriptive, human-l
 
 The system is composed of two main components: an Encoder and a Decoder, which work together to translate pixels into words.
 
-<p align="center">
-  <img src="https://i.imgur.com/kUMaA7r.png" width="700">
-</p>
+![Architecture Diagram](assets/Untitled%20Diagram.drawio.png)
 
 ### 1. The Encoder (The "Eye")
 
