@@ -11,7 +11,7 @@ A complete, end-to-end deep learning project that generates descriptive, human-l
 
 ## ✨ Live Demo
 
-### ➡️ [captionme.your-domain.com](http://captionme.your-domain.com)
+### ➡️ [captionme.kashyaphegde.com](http://captionme.kashyaphegde.com)
 
 ![Echo Demo GIF](assets/demo.gif)
 
