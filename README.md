@@ -1,4 +1,4 @@
-# 📸 Echo: AI Image Captioning System
+# 📸 CaptionMe: AI Image Captioning System
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
@@ -13,7 +13,7 @@ A complete, end-to-end deep learning project that generates descriptive, human-l
 
 ### ➡️ [captionme.kashyaphegde.com](http://captionme.kashyaphegde.com)
 
-![Echo Demo GIF](assets/demo.gif)
+![CaptionMe Demo GIF](assets/demo.gif)
 
 ---
 
